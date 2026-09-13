@@ -1,0 +1,1 @@
+export default function Loading(){return <main className="container animate-pulse pt-32"><div className="h-12 w-72 rounded bg-forest/10"/><div className="mt-10 grid grid-cols-2 gap-5 md:grid-cols-4">{[1,2,3,4].map(x=><div key={x}><div className="aspect-square rounded-2xl bg-forest/10"/><div className="mt-4 h-4 w-2/3 rounded bg-forest/10"/></div>)}</div></main>}

@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:#F7F3EA;color:#16241D;font-family:'DM Sans',sans-serif} h1,h2,h3{font-family:'Playfair Display',Georgia,serif;letter-spacing:-.035em} ::selection{background:#D99627;color:#fff}.grain{background-image:radial-gradient(rgba(24,61,45,.1) .6px,transparent .6px);background-size:8px 8px}.page{min-height:100vh}.eyebrow{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:#496B42}.container{max-width:1280px;margin:auto;padding-left:1.5rem;padding-right:1.5rem}@media(min-width:768px){.container{padding-left:3rem;padding-right:3rem}} body.dark{background:#12231b;color:#eff4e9} body.dark .bg-cream,body.dark .bg-white{background:#1b3025!important;color:#eff4e9} body.dark .text-ink,body.dark .text-ink\/70,body.dark .text-ink\/65{color:#eff4e9!important} body.dark .bg-\[\#E8E3D4\],body.dark .bg-\[\#F2F0E8\],body.dark .bg-\[\#D4DDC7\]{background:#263f31!important} body.dark input,body.dark textarea,body.dark select{color:#eff4e9}

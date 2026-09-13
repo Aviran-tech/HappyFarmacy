@@ -1,0 +1,3 @@
+import type { Metadata } from 'next'; import './globals.css'; import { CartProvider } from '@/components/cart'; import { Navbar } from '@/components/navbar'; import { Footer } from '@/components/footer';
+export const metadata: Metadata={metadataBase:new URL('https://happyfarmacy.com'),title:{default:'HappyFarmacy | From Our Farm to Your Family',template:'%s | HappyFarmacy'},description:'Premium natural farm foods, made with care and grown in harmony with the land.',openGraph:{title:'HappyFarmacy',description:'From our farm to your family.',type:'website'}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><CartProvider><Navbar/>{children}<Footer/></CartProvider></body></html>}
